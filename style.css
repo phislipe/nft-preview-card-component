@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-decoration-skip-ink: none;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --cyan2: hsla(178, 100%, 50%, 50%);
+  --darkBlue1: hsl(217, 54%, 11%);
+  --darkBlue2: hsl(216, 50%, 16%);
+  --darkBlue3: hsl(215, 32%, 27%);
+}
+
+body {
+  background: var(--darkBlue1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background: var(--darkBlue2);
+  height: 543px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.preview {
+  position: relative;
+  border-radius: 8px;
+  height: 300px;
+}
+
+.preview:hover .previewIco {
+  opacity: 1;
+}
+
+.preview:active .previewImg {
+  transform: scale(1.5);
+}
+
+.previewIco {
+  position: absolute;
+  background-color: var(--cyan2);
+  padding: 120px;
+  opacity: 0;
+}
+
+.previewIco,
+.previewImg {
+  height: 280px;
+  width: 280px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.description h1 {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 22px;
+  padding: 17px 0 13px;
+  width: max-content;
+}
+
+.description h1:hover {
+  color: var(--cyan);
+}
+
+.description a {
+  color: inherit;
+}
+
+.description p {
+  color: var(--softBlue);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0 0 17px;
+}
+
+.info {
+  display: flex;
+  padding: 0 0 17px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  gap: 8px;
+}
+
+.price h2 {
+  color: var(--cyan);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 140px;
+  gap: 8px;
+}
+
+.duration p {
+  color: var(--softBlue);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 0.1em solid var(--darkBlue3);
+  padding: 15px 0 0;
+}
+
+.author img {
+  width: 33px;
+  border: 0.1rem solid var(--white);
+  border-radius: 100%;
+}
+
+.author p {
+  color: var(--softBlue);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.author p a {
+  color: var(--white);
+}
+
+.author p a:hover {
+  color: var(--cyan);
+}
+
+@media (min-width: 700px) {
+  .card {
+    height: 595px;
+    width: 350px;
+  }
+
+  .previewIco,
+  .previewImg {
+    height: 300px;
+    width: 300px;
+  }
+
+  .preview:active .previewImg {
+    transform: scale(1.8);
+  }
+
+  .description h1 {
+    padding: 25px 0 18px;
+  }
+
+  .description p {
+    font-size: 18px;
+    padding: 0 0 24px;
+  }
+
+  .info {
+    padding: 0 0 24px;
+  }
+
+  .price h2,
+  .duration p {
+    font-size: 16px;
+  }
+}
