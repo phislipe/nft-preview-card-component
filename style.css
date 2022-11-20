@@ -96,13 +96,13 @@ body {
 .price {
   display: flex;
   align-items: center;
-  width: 140px;
+  width: 150px;
   gap: 8px;
 }
 
 .price h2 {
   color: var(--cyan);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
 }
 
@@ -110,7 +110,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 140px;
+  width: 150px;
   gap: 8px;
 }
 
@@ -136,12 +136,13 @@ body {
 
 .author p {
   color: var(--softBlue);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
 }
 
 .author p a {
   color: var(--white);
+  font-weight: 400;
 }
 
 .author p a:hover {
