@@ -1,59 +1,46 @@
-# Frontend Mentor - NFT preview card component solution
+<h1 align="center">
+  <img src="./assets/banner.svg" alt="Frontend Mentor">
+</h1>
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+<p align="center">
+  This is a solution to the <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U">NFT Preview Card Component</a> challenge on Frontend Mentor.
+</p>
 
-## Table of contents
+<h3 align="center">
+  NFT Preview Card Component 🎴
+</h3>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+<div align="center">
+  <img src="./assets/screenshot.png" alt="NFT Preview Card Component">
+</div>
 
-## Overview
+<h2>📋 The challenge</h2>
 
-### The challenge
+The challenge was to build out this product preview card component and get it looking as close to the design as possible.
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- See hover and focus states for interactive elements
 
-### Screenshot
+<br>
 
-![Frontend Mentor - NFT preview card component solution by Philipe Rocha](./images/screenshot.png)
+<div align="center">
+  <img src="./assets/screenshot-2.png" alt="NFT Preview Card Component">
+</div>
 
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-ydzl_A7E8s](https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-ydzl_A7E8s)
-- Live Site URL: [https://phislipe.github.io/nft-preview-card-component/](https://phislipe.github.io/nft-preview-card-component/)
-
-## My process
-
-### Built with
+<h3>🧪 Built with</h3>
 
 - HTML
 - CSS
 
-### What I learned
+<h3>🔗 Links</h3>
 
-This time I tried using CSS variables for color, which makes it really easy to change the color later if needed.
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-ydzl_A7E8s](https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-ydzl_A7E8s)
+- Live Site URL: [https://phislipe.github.io/nft-preview-card-component/](https://phislipe.github.io/nft-preview-card-component/)
 
-Also had to study how to make the eye overlay on hover effect, since the images needed to be overlapping it was a bit challenging to do at first. I went a step further and tried to make the image expand on click, but since it needed JS and I wanted to stick with just HTML and CSS, I ended up using `active`. It was not ideal since you have to maintain left mouse click pressed, but it did the trick.
+---
 
-!['Expand effect using CSS :active selector'](./images/screenshot-2.png)
-
-### Useful resources
-
-- [dev.mozilla - Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - Good article explaining CSS variables.
-- [W3Schools - How TO - Image Overlay Icon](https://www.example.com) - This article helped me figure out how to do the icon overlay on hover.
-
-## Author
-
-- 🌐 Website - [phislipe.dev](https://phislipe.dev)
-- 🪪 LinkedIn - [Philipe Rocha](https://www.linkedin.com/in/phislipe/)
-- 🎨 Frontend Mentor - [@phislipe](https://www.frontendmentor.io/profile/yourusername)
+<p align="center">
+  Made by <a href="https://phislipe.dev"><b>Philipe Rocha</b></a>
+</p>
